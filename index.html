@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -29,7 +30,9 @@
     <div id="preloder">
         <div class="loader"></div>
     </div>
-
+    <a href="https://api.whatsapp.com/send?phone=+5491168083457&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
     <!-- Offcanvas Menu Begin -->
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
@@ -93,15 +96,15 @@
                         <nav class="header__menu">
                             <ul>
                                 <li class="active"><a href="./index.html">Inicio</a></li>
-                                <li><a href="#">Nosotros</a></li>
+                               <!--  <li><a href="#">Nosotros</a></li>
                                 <li><a href="#">Servicios</a></li>
 
 
-                                <li><a href="#">Contacto</a></li>
+                                <li><a href="#">Contacto</a></li> -->
                             </ul>
                         </nav>
                         <div class="header__btn">
-                            <a href="#" class="primary-btn">Consultanos</a>
+                            <a href="contact.html" class="primary-btn">Consultanos</a>
                         </div>
                     </div>
                 </div>
@@ -121,7 +124,7 @@
                     <div class="hero__text">
                         <span>Centro de belleza </span>
                         <h2>Estética Coqueta</h2>
-                        <a href="#" class="primary-btn normal-btn">Consultanos</a>
+                        <a href="contact.html" class="primary-btn normal-btn">Consultanos</a>
                     </div>
                 </div>
             </div>
@@ -223,7 +226,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="services__btn">
-                        <a href="#" class="primary-btn">Consultanos</a>
+                        <a href="contact.html" class="primary-btn">Consultanos</a>
                     </div>
                 </div>
             </div>
@@ -326,8 +329,8 @@
                     </div>
                     <div class="col-lg-4 col-md-8">
                         <div class="footer__newslatter">
-                            <form action="#">
-                                <input type="text" placeholder="Email">
+                            <form action="correo-contacto.php" method="post">
+                                <input type="text"  name="nombre" placeholder="Email">
                                 <button type="submit" class="site-btn">Subscribite</button>
                             </form>
                         </div>
@@ -349,10 +352,10 @@
                     <div class="footer__widget">
                         <h5>Centro de Estética</h5>
                         <ul>
-                            <li><a href="#">Nosotros</a></li>
+                            <!-- <li><a href="#">Nosotros</a></li> -->
 
 
-                            <li><a href="#">Contacto</a></li>
+                            <li><a href="contact.html">Contacto</a></li>
                         </ul>
                     </div>
                 </div>
@@ -365,7 +368,7 @@
                             <li><i class="fa fa-phone"></i> 4780-8404</li>
                             <li><i class="fa fa-map-marker"></i> Sanchez de Bustamante 1189 CABA</li>
                             <li><i class="fa fa-clock-o"></i> Martes a Sábado de 10:00 am a 19:00 pm</li>
-                            <li><i class="fa fa-envelope"></i> spa.coquetta@gmail.com</li>
+                            <li><i class="fa fa-envelope"></i> <a style="color: #ffe4b5" href="mailto:spa.coquetta@gmail.com" tarjet=" _blank">spa.coquetta@gmail.com</a></li>
                         </ul>
                     </div>
                 </div>
